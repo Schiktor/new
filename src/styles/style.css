@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Open sans italic";
+    src: url(../Fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: " Open sans";
+    src: url(../Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Neucha";
+    src: url(../Fonts/Neucha/Neucha-Regular.ttf);
+}
+
+:root {
+    --bg-white: #fff;
+    --bg-translucent-white: #d7ccc0;
+    --bg-light: #f5f4f0;
+    --bg-basic: #2a2626;
+    --bg-basic-dark: #42413c;
+    --bg-dark: #2a2626;
+    --bg-translucent-dark: #908d8b;
+    --bg-brown: #b09a81;
+    --bg-blue: #1085c5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open sans italic";
+    font-size: 16px;
+    color: var(--bg-dark);
+    line-height: 1.6em;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2em;
+    font-family: "Neucha";
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+.wrapper-page {
+    width:100%
+}
+
+.header {
+    width: 1000px;
+    border:1px solid red;
+    /* background-color: red; */
+}
+
+.header::before {
+background-color: red;
+height:100px;
+width:100%;
+content: "привет";
+}
+
+.orange-text {
+    color: #FE8A02;
+}
